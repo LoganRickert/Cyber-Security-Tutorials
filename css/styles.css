@@ -1,0 +1,117 @@
+html {
+	background: url(../img/background-1.png);
+}
+
+body {
+	margin: 80px auto;
+	max-width: 800px;
+	background: white;
+	padding: 40px;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	padding: 0 0 20px;
+	margin: 0 0 10px;
+	border-bottom: 1px solid #aaa;
+}
+
+a {
+	color: #2980b9;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 26px;
+	padding: 0 0 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	font-size: 14px;
+	padding: 0 0 10px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 18px;
+	border-bottom: 1px solid #ccc;
+	padding: 0 0 10px;
+	margin: 0 0 20px;
+}
+
+section {
+	padding: 0 0 20px;
+	line-height: 200%;
+}
+
+b {
+	font-weight: bold;
+}
+
+img {
+	width: 50%;
+	padding: 0 25% 20px 25%;
+}
+
+ul {
+	padding: 0 0 20px;
+}
+
+li {
+	list-style-type: circle;
+	margin: 0 0 0 18px;
+}
+
+p {
+	padding: 0 0 20px;
+}
+
+pre {
+	margin: 0 0 20px;
+}
+
+footer {
+	font-size: 14px;
+	color: #aaa;
+	text-align: center;
+	border-top: 1px solid #aaa;
+	padding: 40px 0 0;
+}
+
+pre code,
+pre .line-number {
+  /* Ukuran line-height antara teks di dalam tag <code> dan <span class="line-number"> harus sama! */
+  font:normal normal 14px/16px "Courier New",Courier,Monospace;
+  color:black;
+  display:block;
+}
+
+pre .line-number {
+  float:left;
+  font-size: 12px;
+  padding: 5px 0 0;
+  margin:0 1em 0 -1em;
+  border-right:1px solid;
+  text-align:right;
+}
+
+pre .line-number span {
+  display:block;
+  padding:0 .5em 0 1em;
+}
+
+pre .cl {
+  display:block;
+  clear:both;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
