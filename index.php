@@ -18,12 +18,134 @@
                     for it. We would love the help.</p>
 
                 <h3>Tutorials</h3>
+                <h4>Entry Level</h4>
                 <ul>
-                    <li>List Header
+                    <li>Basics
                         <ul>
-                            <li>List item</li>
+                            <li>Linux Basics</li>
+                            <li>Git</li>
+                            <li>HTML && CSS</li>
+                            <li>Javascript</li>
                         </ul>
                     </li>
+                    <li>TL;DR 1
+                        <ul>
+                            <li>1180 - Programming Basics</li>
+                        </ul>
+                    </li>
+                    <li>Scripting
+                        <ul>
+                            <li>Python Basics</li>
+                            <li>Bash Basics</li>
+                            <li>PHP Basics</li>
+                        </ul>
+                    </li>
+                    <li>TL;DR 2
+                        <ul>
+                            <li>1181 - Advanced Programming Concepts</li>
+                        </ul>
+                    </li>
+                    <li>Sockets
+                        <ul>
+                            <li>Basic Echo Server</li>
+                            <li>Chat Server</li>
+                            <li>Remote Terminal</li>
+                            <li>Proxy Server</li>
+                            <li>Bot Net</li>
+                            <li>Web Server</li>
+                            <li>Twitch IRC Bot</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h4>Growing A Beard</h4>
+                <ul>
+                    <li>TL;DR 3
+                        <ul>
+                            <li>3310 - Assembly and The Stack</li>
+                        </ul>
+                    </li>
+                    <li>The Stack
+                        <ul>
+                            <li>Stack Frames</li>
+                            <li>Buffer Overflows</li>
+                            <li>Protecting Against Buffer Overflows</li>
+                            <li>The Heartbleed Bug</li>
+                        </ul>
+                    </li>
+                    <li>Reverse Engineering C#
+                        <ul>
+                            <li>Decompiling</li>
+                            <li>CIL Assembly and DLL Injection</li>
+                            <li>Reflection in C#</li>
+                        </ul>
+                    <li>Reverse Engineering C++
+                        <ul>
+                            <li>Debugging and Decompiling</li>
+                        </ul>
+                    </li>
+                    <li>Preventing Reverse Engineering
+                        <ul>
+                            <li>Obfuscation</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <h4>Ethics</h4>
+                <ul>
+                    <li>yo-dont-do-this-in-realz-life-cuz-we-would-like-the-club-to-stay-open</li>
+                </ul>
+
+                <h4>Metasploitable</h4>
+                <ul>
+                    <li>Yep.</li>
+                </ul>
+
+                <h4>Networking</h4>
+                <ul>
+                    <li>Sockets in C</li>
+                    <li>Port Scanning</li>
+                    <li>Traffic Sniffing</li>
+                    <li>Packet Injection</li>
+                    <li>Packet Crafting</li>
+                    <li>DDOS</li>
+                    <li>APR Poisoning</li>
+                    <li>TCP-Hijacking</li>
+                </ul>
+
+                <h4>Web Security</h4>
+                <ul>
+                    <li>XSS</li>
+                    <li>Sql Injection</li>
+                    <li>SQLMap</li>
+                </ul>
+
+                <h4>Malware</h4>
+                <ul>
+                    <li>Trojans</li>
+                </ul>
+
+                <h4>A History of Hacking and Cyber Criminaling</h4>
+                <ul>
+                    <li>Yep.</li>
+                </ul>
+
+                <h4>Web Technology</h4>
+                <ul>
+                    <li>Apache</li>
+                    <li>Flask</li>
+                    <li>PHP</li>
+                    <li>SQL</li>
+                    <li>DNS</li>
+                </ul>
+                
+                <h4>Hardware</h4>
+                <ul>
+                    <li>APU</li>
+                    <li>CPU</li>
+                    <li>Hard drives</li>
+                    <li>Motherboards</li>
+                    <li>RAM</li>
+                    <li>Routers / Switches</li>
                 </ul>
 
                 <h3>How To Write A Tutorial</h3>
