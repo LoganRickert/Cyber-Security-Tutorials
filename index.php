@@ -7,7 +7,8 @@
             "SITE_ROOT" => SITE_ROOT,
             "title" => "Wright State Cyber Security Tutorials",
             "author" => ""
-    ));
+        )
+    );
     $code = new Code(DOC_ROOT . "template-code.txt");
 
 ?>
@@ -162,6 +163,12 @@
                     gladly help you out.</p>
 <?PHP
 
-    File::dumpFile(FOOTER_HTML);
+    File::dumpFile(
+        FOOTER_HTML,
+        array(
+            "previous" => "",
+            "next" => ""
+        )
+    );
 
 ?>

@@ -7,7 +7,8 @@
             "SITE_ROOT" => SITE_ROOT,
             "title" => "Python Sockets #1",
             "author" => "By Logan Rickert"
-    ));
+        )
+    );
     $code = new Code("template-code.txt");
 
 ?>
@@ -37,6 +38,12 @@
                 <?PHP $code->printNextExample("python"); ?>
 <?PHP
 
-    File::dumpFile(FOOTER_HTML);
+    File::dumpFile(
+        FOOTER_HTML,
+        array(
+            "previous" => "",
+            "next" => ""
+        )
+    );
 
 ?>

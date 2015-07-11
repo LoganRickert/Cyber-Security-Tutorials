@@ -7,7 +7,8 @@
             "SITE_ROOT" => SITE_ROOT,
             "title" => "Linux Basics Introduction",
             "author" => "By Logan Rickert"
-    ));
+    	)
+    );
 
 ?>
                 <h3>Introduction</h3>
@@ -15,22 +16,28 @@
                 	to use Linux.</p>
                 <h3>Table of Contents</h3>
                 <ol>
-                	<li>Linux Flavors and Some History</li>
-                	<li>VMware Player / Installing Linux</li>
-                	<li>Exploring the File System</li>
-                	<li>Quickly Viewing Files</li>
-                	<li>Editing Files</li>
-                	<li>Renaming, Moving, and Deleting Files</li>
-                	<li>File Permissions and sudo</li>
-                	<li>Processes</li>
-                	<li>Environment Variables</li>
-                	<li>Find, Grep, WC, and Piping</li>
-                	<li>Installing Software</li>
-                	<li>SSH</li>
-                	<li>sftp</li>
+                	<li><a href="linux-flavors-and-history.php">Linux Flavors and History</a></li>
+                	<li><a href="vmware-player-installing-linux.php">VMware Player / Installing Linux</a></li>
+                	<li><a href="exploring-file-system.php">Exploring the File System</a></li>
+                	<li><a href="viewing-files.php">Quickly Viewing Files</a></li>
+                	<li><a href="editing-files.php">Editing Files</a></li>
+                	<li><a href="renaming-moving-deleting.php">Renaming, Moving, and Deleting Files</a></li>
+                	<li><a href="file-permissions.php">File Permissions and sudo</a></li>
+                	<li><a href="processes.php">Processes</a></li>
+                	<li><a href="enviroment-variables.php">Environment Variables</a></li>
+                	<li><a href="find-grep-wc-piping.php">Find, Grep, WC, and Piping</a></li>
+                	<li><a href="installing-software.php">Installing Software</a></li>
+                	<li><a href="ssh.php">SSH</a></li>
+                	<li><a href="sftp.php">sftp</a></li>
                 </ol>
 <?PHP
 
-    File::dumpFile(FOOTER_HTML);
+    File::dumpFile(
+    	FOOTER_HTML,
+    	array(
+    		"previous" => "asdf",
+    		"next" => "linux-flavors-and-history"
+    	)
+    );
 
 ?>
