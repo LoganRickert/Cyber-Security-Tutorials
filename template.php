@@ -4,6 +4,7 @@
     File::dumpFile(
         HEADER_HTML,
         array(
+            "SITE_ROOT" => SITE_ROOT,
             "title" => "Python Sockets #1",
             "author" => "By Logan Rickert"
     ));

@@ -4,6 +4,7 @@
     File::dumpFile(
         HEADER_HTML,
         array(
+            "SITE_ROOT" => SITE_ROOT,
             "title" => "Wright State Cyber Security Tutorials",
             "author" => ""
     ));
@@ -17,8 +18,7 @@
                     covered or a topic you think should be covered, try making a tutorial 
                     for it. We would love the help.</p>
 
-                <h3>Tutorials</h3>
-                <h4>Entry Level</h4>
+                <h3>Entry Level</h3>
                 <ul>
                     <li>Basics
                         <ul>
@@ -57,7 +57,7 @@
                         </ul>
                     </li>
                 </ul>
-                <h4>Growing A Beard</h4>
+                <h3>Picking Up The Pace</h3>
                 <ul>
                     <li>TL;DR 3
                         <ul>
@@ -90,6 +90,7 @@
                     </li>
                 </ul>
                 
+                <h3>Misc.</h3>
                 <h4>Ethics</h4>
                 <ul>
                     <li>yo-dont-do-this-in-realz-life-cuz-we-would-like-the-club-to-stay-open</li>
