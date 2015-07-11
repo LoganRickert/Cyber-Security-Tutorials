@@ -4,36 +4,39 @@
     File::dumpFile(
         HEADER_HTML,
         array(
-            "title" => "Python Sockets #1",
-            "author" => "By Logan Rickert"
+            "title" => "Wright State Cyber Security Tutorials",
+            "author" => ""
     ));
     $code = new Code(DOC_ROOT . "template-code.txt");
 
 ?>
-                <h3>What Is A Socket?</h3>
-                <p>A socket is a way to talk to other computers over the internet. 
-                    It is a two way connection you can send and recieve information on. 
-                    To create socket, you will need to know two things: The IP/hostname 
-                    and the port. In this tutorial, we'll be using a special IP address: 
-                    127.0.0.1. This IP is special because instead of sending your packets 
-                    out over the internet, your computer automatically reroutes them back 
-                    into your computer.</p>
-                <p>We'll start off by making a server in Python. It will wait for someone 
-                    to connect. Once it does, it takes in any data the client sends. It 
-                    then sends back the data it received. It then closes the connection.</p>
+                <h3>Introduction</h3>
+                <p>Welcome to the Cyber Security Tutorials. These tutorials were all 
+                    written by members of the Wright State Cyber Security club. We hope 
+                    you find them useful! If a topic that you wanted to learn about isn't 
+                    covered or a topic you think should be covered, try making a tutorial 
+                    for it. We would love the help.</p>
 
-                <h3>Server</h3>
-                <?PHP $code->printNextExample("python"); ?>
-                <p>Now lets make a client to talk to our new server.</p>
+                <h3>Tutorials</h3>
+                <ul>
+                    <li>List Header
+                        <ul>
+                            <li>List item</li>
+                        </ul>
+                    </li>
+                </ul>
 
-                <h3>Client</h3>
-                <?PHP $code->printNextExample("python"); ?>
-                <p>Lets test out our new client and server! Start by first running the 
-                    server script, then run the client script while the server script is 
-                    still running. You should see this:</p>
-                    
-                <h3>Output</h3>
-                <?PHP $code->printNextExample("python"); ?>
+                <h3>How To Write A Tutorial</h3>
+                <p>Writing your own tutorial is very easy. Pull down template.php and 
+                    template-code.txt as a boiler plate. The &#60;p&#62;</pre> tag means 
+                    paragraph and seperates each set by a new line. &#60;h3&#62; means heading.
+                    Heading text is larger and has an underline.</p>
+                <p>To display a code example, open the template-code.txt and just paste your 
+                    code in in order of how you wish to display it. Each example should have 
+                    start with EXAMPLE then the code on a new line. Everything else you need 
+                    to know, you should be able to figure it. It's really not that hard. If you 
+                    still have questions after reading this, feel free to ask someone and they will 
+                    gladly help you out.</p>
 <?PHP
 
     File::dumpFile(FOOTER_HTML);
