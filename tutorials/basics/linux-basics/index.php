@@ -35,7 +35,7 @@
     File::dumpFile(
     	FOOTER_HTML,
     	array(
-    		"previous" => "asdf",
+    		"previous" => "",
     		"next" => "linux-flavors-and-history"
     	)
     );

@@ -92,12 +92,24 @@ pre {
 	margin: 0 0 20px;
 }
 
+.wiki-link-bad {
+	color: red;
+}
+
+.wiki-link-good {
+	color: blue;
+}
+
 footer {
 	font-size: 14px;
 	color: #aaa;
-	text-align: center;
 	border-top: 1px solid #aaa;
 	padding: 40px 0 0;
+	text-align: center;
+}
+
+footer p {
+	clear: both;
 }
 
 pre code,
