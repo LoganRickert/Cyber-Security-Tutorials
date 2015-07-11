@@ -7,7 +7,7 @@
             "title" => "Python Sockets #1",
             "author" => "By Logan Rickert"
     ));
-    $code = new Code(DOC_ROOT . "template-code.txt");
+    $code = new Code("template-code.txt");
 
 ?>
                 <h3>What Is A Socket?</h3>
