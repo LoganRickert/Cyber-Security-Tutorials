@@ -80,7 +80,8 @@ ul li ul li:before {
 }
 
 ol li {
-	list-style-type: decimal-leading-zero;
+	margin: 0 0 0 34px;
+	list-style-type: decimal;
 }
 
 p {
