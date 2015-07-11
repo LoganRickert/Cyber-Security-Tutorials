@@ -1,0 +1,56 @@
+EXAMPLE
+# Echo server program
+import socket
+
+HOST = '127.0.0.1'        # Symbolic name meaning all available interfaces
+PORT = 50007              # Arbitrary non-privileged port
+
+# Setting up the socket
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.bind((HOST, PORT))
+s.listen(1)
+
+# Waiting for a client to connect
+conn, addr = s.accept()
+print 'Connected by', addr
+
+while 1:
+    # Wait for the client to send data. Take 1024 bytes of the data
+    data = conn.recv(1024)
+
+    print 'received', data
+
+    # If the data is empty, break;
+    if not data: break
+
+    # Send back the 1024 bytes to the client.
+    conn.sendall(data)
+
+conn.close()
+EXAMPLE
+# Echo client program
+import socket
+
+HOST = '127.0.0.1'    # The remote host
+PORT = 50007              # The same port as used by the server
+
+# Setting up the socket
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# Connect to the socket
+s.connect((HOST, PORT))
+s.sendall('Hello, world')
+
+# Wait until the server sends back data. Take the first 1024 bytes.
+data = s.recv(1024)
+s.close()
+
+print 'Received', repr(data)
+EXAMPLE
+(Server:)
+Connected by ('127.0.0.1', 51443)
+received Hello, world
+received 
+
+(Client:)
+Received 'Hello, world'
