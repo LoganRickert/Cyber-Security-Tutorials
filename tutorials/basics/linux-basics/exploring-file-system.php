@@ -5,32 +5,30 @@
         HEADER_HTML,
         array(
             "SITE_ROOT" => SITE_ROOT,
-            "title" => "Linux Basics Introduction",
+            "title" => "Exploring The File System",
             "author" => "By Logan Rickert"
-    ));
+        )
+    );
+    $code = new Code("code_examples/exploring-file-system.txt");
 
 ?>
-                <h3>Introduction</h3>
-                <p>This tutorial series is here to give someone a basic knowledge of how 
-                	to use Linux.</p>
-                <h3>Table of Contents</h3>
-                <ol>
-                	<li>Linux Flavors and Some History</li>
-                	<li>VMware Player / Installing Linux</li>
-                	<li>Exploring the File System</li>
-                	<li>Quickly Viewing Files</li>
-                	<li>Editing Files</li>
-                	<li>Renaming, Moving, and Deleting Files</li>
-                	<li>File Permissions and sudo</li>
-                	<li>Processes</li>
-                	<li>Environment Variables</li>
-                	<li>Find, Grep, WC, and Piping</li>
-                	<li>Installing Software</li>
-                	<li>SSH</li>
-                	<li>sftp</li>
-                </ol>
+                <h3>Listing Files</h3>
+                <p>In order to see what files are in a directory, type 'ls' and press enter.</p>
+                <?PHP $code->printNextExample("Python"); ?>
+
+                <h3>Links</h3>
+                <ul>
+                    <li><?PHP outLink("https://en.wikipedia.org/wiki/Linux", "Linux Wikipedia") ?>
+                    <li><?PHP outLink("http://distrowatch.com/", "DistroWatch") ?></li>
+                </ul>
 <?PHP
 
-    File::dumpFile(FOOTER_HTML);
+    File::dumpFile(
+        FOOTER_HTML,
+        array(
+            "previous" => "vmware-player-installing-linux",
+            "next" => "viewing-files"
+        )
+    );
 
 ?>
