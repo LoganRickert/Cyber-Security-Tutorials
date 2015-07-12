@@ -8,4 +8,12 @@
 	define("HEADER_HTML", DOC_ROOT . "src/header.html");
 	define("FOOTER_HTML", DOC_ROOT . "src/footer.html");
 
+	function outLink($link, $name) {
+		echo "<a href=\"$link\" target=\"_blank\">$name</a>";
+	}
+
+	function outImg($link, $name) {
+		outLink("img/".$link, "<img src=\"img/$link\" alt=\"$name\"></a>");
+	}
+
 ?>
