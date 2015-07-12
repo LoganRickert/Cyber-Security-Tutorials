@@ -1,0 +1,27 @@
+EXAMPLE
+logan@ubuntu:~$ ls
+Desktop Documents Downloads Music Pictures Public Templates Videos
+logan@ubuntu:~$ l
+Desktop/ Documents/ Downloads/ Music/ Pictures/ Public/ Templates/ Videos/
+EXAMPLE
+logan@ubuntu:~$ cd Desktop
+logan@ubuntu:~/Desktop$ l
+logan@ubuntu:~/Desktop$ cd ..
+logan@ubuntu:~$ cd ..
+logan@ubuntu:/home$ l
+logan/
+logan@ubuntu:/home$ cd logan/Music
+logan@ubuntu:~/Music$ cd ../Desktop
+logan@ubuntu:~/Desktop$
+EXAMPLE
+logan@ubuntu:~$ pwd
+/home/logan
+logan@ubuntu:~$ cd Desktop
+logan@ubuntu:~/Desktop$ pwd
+/home/logan/Desktop
+EXAMPLE
+logan@ubuntu:~/Music$ cd /home/logan/Music
+logan@ubuntu:~/Music$ cd /home/logan/Videos
+logan@ubuntu:~/Videos$ cd
+logan@ubuntu:~$ cd Videos
+logan@ubuntu:~/Videos$
