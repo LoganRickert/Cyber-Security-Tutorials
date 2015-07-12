@@ -5,3 +5,31 @@ logan@~ubuntu:~$ cat test
 Hi, how are you?
 Good, you?
 I'm doing great.
+EXAMPLE
+logan@ubuntu:~$ sudo apt-get install vim
+[sudo] password for logan: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  vim-runtime
+Suggested packages:
+  ctags vim-doc vim-scripts
+The following NEW packages will be installed:
+  vim vim-runtime
+0 upgraded, 2 newly installed, 0 to remove and 144 not upgraded.
+Need to get 6,001 kB of archives.
+After this operation, 28.7 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+EXAMPLE
+logan@ubuntu:~$ vi test
+EXAMPLE
+logan@ubuntu:~$ cat test
+Hi, how are you?
+Good, you?
+I'm doing great.
+That's great to hear
+EXAMPLE
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo apt-get update
+sudo apt-get install sublime-text
