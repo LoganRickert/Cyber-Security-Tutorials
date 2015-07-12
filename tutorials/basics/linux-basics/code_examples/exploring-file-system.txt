@@ -24,4 +24,5 @@ logan@ubuntu:~/Music$ cd /home/logan/Music
 logan@ubuntu:~/Music$ cd /home/logan/Videos
 logan@ubuntu:~/Videos$ cd
 logan@ubuntu:~$ cd Videos
-logan@ubuntu:~/Videos$
+logan@ubuntu:~/Videos$ cd ~/Music
+logan@ubuntu:~/Music$

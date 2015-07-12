@@ -30,7 +30,7 @@
                 <?PHP $code->printNextExample("Bash"); ?>
                 <p>In Windows, your desktop is here: 'C:\Users\Logan\Desktop'. In Linux, your desktop is 
                     here: '/home/logan/Desktop'. A relative path is a path that doesn't start with a / 
-                    while an absolute path does. A relative path is relative to where you are in your 
+                    or a ~ (~ is shorthand for /home/logan) while an absolute path does. A relative path is relative to where you are in your 
                     file system, while an absoulte path always starts at the top and goes down.</p>
                 <?PHP $code->printNextExample("Bash"); ?>
 <?PHP
@@ -39,7 +39,7 @@
         FOOTER_HTML,
         array(
             "previous" => "vmware-player-installing-linux",
-            "next" => "viewing-files"
+            "next" => "creating-viewing-files"
         )
     );
 

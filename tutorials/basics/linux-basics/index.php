@@ -19,7 +19,7 @@
                 	<li><a href="linux-flavors-and-history.php">Linux Flavors and History</a></li>
                 	<li><a href="vmware-player-installing-linux.php">VMware Player / Installing Linux</a></li>
                 	<li><a href="exploring-file-system.php">Exploring the File System</a></li>
-                	<li><a href="viewing-files.php">Quickly Viewing Files</a></li>
+                	<li><a href="creating-viewing-files.php">Creating and Viewing Files</a></li>
                 	<li><a href="editing-files.php">Editing Files</a></li>
                 	<li><a href="renaming-moving-deleting.php">Renaming, Moving, and Deleting Files</a></li>
                 	<li><a href="file-permissions.php">File Permissions and sudo</a></li>

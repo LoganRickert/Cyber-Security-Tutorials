@@ -1,0 +1,7 @@
+EXAMPLE
+logan@~ubuntu:~$ nano test
+EXAMPLE
+logan@~ubuntu:~$ cat test
+Hi, how are you?
+Good, you?
+I'm doing great.

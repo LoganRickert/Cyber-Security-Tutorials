@@ -46,6 +46,7 @@
                 <p>Click your name and enter your password. Once you're logged in, press control + alt + t and the 'terminal' should appear:</p>
                 <p><?PHP outImg("vmware-4.jpg", "vmware-player window") ?></p>
 
+                <p>Test it out. Type 'clear' and press enter. It should clear the terminal.</p>
                 <p>And there you go! You have installed Linux, logged on, and opened the terminal. Time to do some 
                     super sweet stuff.</p>
 

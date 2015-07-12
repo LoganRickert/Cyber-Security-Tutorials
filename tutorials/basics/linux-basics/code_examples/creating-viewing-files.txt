@@ -1,0 +1,66 @@
+EXAMPLE
+logan@ubuntu:~$ touch test
+logan@ubuntu:~$ l
+Desktop/ Downloads/ Pictures/ Templates/ Videos/Documents/ Music/ Public/ test
+EXAMPLE
+logan@ubuntu:~$ ll
+total 76
+drwxr-xr-x 16 logan logan 4096 Jul 12 06:20 ./
+drwxr-xr-x  3 root  root  4096 Jul 11 16:53 ../
+-rw-r--r--  1 logan logan  220 Jul 11 16:53 .bash_logout
+-rw-r--r--  1 logan logan 3760 Jul 11 16:53 .bashrc
+drwx------ 11 logan logan 4096 Jul 11 17:17 .cache/
+drwx------ 13 logan logan 4096 Jul 11 17:32 .config/
+drwx------  3 logan logan 4096 Jul 11 16:58 .dbus/
+drwxr-xr-x  2 logan logan 4096 Jul 11 16:58 Desktop/
+drwxr-xr-x  2 logan logan 4096 Jul 11 16:58 Documents/
+drwxr-xr-x  2 logan logan 4096 Jul 11 16:58 Downloads/
+drwx------  2 logan logan 4096 Jul 11 16:59 .gconf/
+d?????????  ? ?     ?        ?            ? .gvfs/
+-rw-------  1 logan logan  318 Jul 11 16:58 .ICEauthority
+drwxr-xr-x  3 logan logan 4096 Jul 11 16:58 .local/
+drwxr-xr-x  2 logan logan 4096 Jul 11 16:58 Music/
+drwxr-xr-x  2 logan logan 4096 Jul 11 16:58 Pictures/
+-rw-r--r--  1 logan logan  675 Jul 11 16:53 .profile
+drwxr-xr-x  2 logan logan 4096 Jul 11 16:58 Public/
+-rw-r--r--  1 logan logan    0 Jul 11 17:17 .sudo_as_admin_successful
+drwxr-xr-x  2 logan logan 4096 Jul 11 16:58 Templates/
+-rw-rw-r--  1 logan logan    0 Jul 12 06:20 test
+drwxr-xr-x  2 logan logan 4096 Jul 11 16:58 Videos/
+EXAMPLE
+logan@ubuntu:~$ ll
+total 76
+drwxr-xr-x 16 logan logan 4096 Jul 12 06:20 ./
+drwxr-xr-x  3 root  root  4096 Jul 11 16:53 ../
+-rw-r--r--  1 logan logan  220 Jul 11 16:53 .bash_logout
+-rw-r--r--  1 logan logan 3760 Jul 11 16:53 .bashrc
+drwx------ 11 logan logan 4096 Jul 11 17:17 .cache/
+drwx------ 13 logan logan 4096 Jul 11 17:32 .config/
+drwx------  3 logan logan 4096 Jul 11 16:58 .dbus/
+drwxr-xr-x  2 logan logan 4096 Jul 11 16:58 Desktop/
+drwxr-xr-x  2 logan logan 4096 Jul 11 16:58 Documents/
+drwxr-xr-x  2 logan logan 4096 Jul 11 16:58 Downloads/
+drwx------  2 logan logan 4096 Jul 11 16:59 .gconf/
+d?????????  ? ?     ?        ?            ? .gvfs/
+-rw-------  1 logan logan  318 Jul 11 16:58 .ICEauthority
+drwxr-xr-x  3 logan logan 4096 Jul 11 16:58 .local/
+drwxr-xr-x  2 logan logan 4096 Jul 11 16:58 Music/
+drwxr-xr-x  2 logan logan 4096 Jul 11 16:58 Pictures/
+-rw-r--r--  1 logan logan  675 Jul 11 16:53 .profile
+drwxr-xr-x  2 logan logan 4096 Jul 11 16:58 Public/
+-rw-r--r--  1 logan logan    0 Jul 11 17:17 .sudo_as_admin_successful
+drwxr-xr-x  2 logan logan 4096 Jul 11 16:58 Templates/
+-rw-rw-r--  1 logan logan    0 Jul 12 06:24 test
+drwxr-xr-x  2 logan logan 4096 Jul 11 16:58 Videos/
+EXAMPLE
+logan@ubuntu:~$ echo hello
+hello
+logan@ubuntu:~$ echo Hi, how are you?
+Hi, how are you?
+EXAMPLE
+logan@ubuntu:~$ echo Hi, how are you? > test
+logan@ubuntu:~$ echo Good, you? >> test
+EXAMPLE
+logan@ubuntu:~$ cat test
+Hi, how are you?
+Good, you?
