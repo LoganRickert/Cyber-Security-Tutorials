@@ -46,7 +46,7 @@
                 <p>To edit the file, press the 'i' key. You should see '-- INSERT --' appear in 
                     the bottom. Go down to the third line, over to the end and press enter. Now 
                     type a new reply, such as 'That's great to hear'. Now, press the esc key and 
-                    you will exit insert mode. Now press 'shift + ;'. In the bottom left, you 
+                    you will exit insert mode. Now press 'shift ;'. In the bottom left, you 
                     should see a colon (:). Type wq and press enter. w stands for write and q 
                     stands for quit. If you want to exit without saving your changes, you can 
                     type 'q!'. Vim takes a lot of practice to get use to. Just remember the golden 
@@ -55,13 +55,20 @@
                 <?PHP $code->printNextExample("Bash"); ?>
 
                 <h3>Sublime</h3>
-                <p>The last editor we'll look at is a GUI editor. GUI means Graphical User Interface 
-                    and not terminal based. To install it, we will use the command line of course! 
+                <p>The last editor we'll look at is a GUI editor. GUI means Graphical User Interface.
+                    To install it, we will use the command line of course! 
                     We want to run the following three commands. If you're lazy, you can copy it. 
-                    To copy/paste something into the terminal, you must also hold shift. For example, 
-                    to paste, do 'control + shift + v'.</p>
+                    To copy/paste something into the terminal, you have to do 'control + shift + v'
+                    to paste and 'control + shift + c' to copy.</p>
                 <?PHP $code->printNextExample("Bash"); ?>
-
+                <p>To open Sublime, you can do one of two things: type 'sublime-text' into console and
+                    press enter or click 'activities' in the corner, type 'sublime' and click the icon. 
+                    Once you have it open, you should see this:</p>
+                <p><?PHP outImg("editing-files-3.jpg", "Sublime Text") ?></p>
+                <p>We can open our file by clicking 'file' > open file > and on the left, click your name 
+                    (it's right above Desktop). Click the 'test' file and click open. It's that simple. Press 
+                    'control + s' to save the file. One small note: try to always have a new line that's empty 
+                    as your last line.</p>
 <?PHP
 
     File::dumpFile(
