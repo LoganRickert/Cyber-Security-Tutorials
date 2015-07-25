@@ -1,0 +1,42 @@
+EXAMPLE
+logan@ubuntu:~$ mv test secret-test
+logan@ubuntu:~$ l
+Desktop/ Downloads/ Pictures/ secret-test Videos/
+Documents/ Music/ Public/ Templates/
+logan@ubuntu:~$ cat secret-test
+Hi, how are you?
+Good, you?
+I'm doing great.
+That's great to hear.
+EXAMPLE
+logan@ubuntu:~$ touch test1
+logan@ubuntu:~$ l
+Desktop/ Downloads/ Pictures/ secret-test test1 Videos/
+Documents/ Music/ Public/ Templates/
+logan@ubuntu:~$ rm test
+logan@ubuntu:~$ l
+Desktop/ Downloads/ Pictures/ secret-test Videos/
+Documents/ Music/ Public/ Templates/
+EXAMPLE
+test* would match test1, test2, test3, ...
+test*4 would match testzzz4, test14, ...
+*test would match caketest, hitest, 34test, ...
+EXAMPLE
+logan@ubuntu:~$ mkdir testFolder
+logan@ubuntu:~$ cd testFolder
+logan@ubuntu:~$ touch test1.txt
+logan@ubuntu:~$ touch test2.txt
+logan@ubuntu:~$ touch extra1
+logan@ubuntu:~$ touch extra2
+logan@ubuntu:~$ l
+test1.txt test2.txt extra1 extra2
+logan@ubuntu:~$ rm *.txt
+logan@ubuntu:~$ l
+extra1 extra2
+logan@ubuntu:~$ rm *
+logan@ubuntu:~$ l
+EXAMPLE
+logan@ubuntu:~$ l
+Desktop/ Downloads/ Pictures/ secret-test Videos/
+Documents/ Music/ Public/ Templates/ testFolder/
+logan@ubuntu:~$ rm -r testFolder
