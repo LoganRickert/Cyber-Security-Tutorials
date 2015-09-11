@@ -32,12 +32,12 @@
                 </ol>
 <?PHP
 
-    File::dumpFile(
-    	FOOTER_HTML,
-    	array(
-    		"previous" => "",
-    		"next" => "linux-flavors-and-history"
-    	)
-    );
+    // File::dumpFile(
+    // 	FOOTER_HTML,
+    // 	array(
+    // 		"previous" => "",
+    // 		"next" => "linux-flavors-and-history"
+    // 	)
+    // );
 
 ?>

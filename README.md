@@ -35,6 +35,9 @@ following URL:
 localhost/tutorials
 ```
 
+If you did not put the files in /var/www/html, please change the first two lines
+on /src/starter.php to reflect the correct information.
+
 ## Creating A Tutorial
 
 I am going to do this section using 'linux-basics' tutorial as an example.

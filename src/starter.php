@@ -1,9 +1,9 @@
 <?PHP
 	
-	define("SITE_ROOT", "http://localhost/WSCS%20Tutorials/");
-	define("DOC_ROOT", "C:\\xampp1\\htdocs\\WSCS Tutorials\\");
+	define("SITE_ROOT", "http://localhost/tutorials/");
+	define("DOC_ROOT", "/var/www/html/tutorials/");
 
-	include DOC_ROOT . 'src\\autoloader.php';
+	include DOC_ROOT . 'src/autoloader.php';
 
 	define("HEADER_HTML", DOC_ROOT . "src/header.html");
 	define("FOOTER_HTML", DOC_ROOT . "src/footer.html");

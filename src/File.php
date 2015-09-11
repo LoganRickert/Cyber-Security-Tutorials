@@ -1,12 +1,12 @@
 <?PHP
-	
+
 	class File {
 
-		public function getFile($path) {
+		public static function getFile($path) {
 			return file_get_contents($path);
 		}
 
-		public function dumpFile($path, $args = array()) {
+		public static function dumpFile($path, $args = array()) {
 			$file = file_get_contents($path);
 
 			foreach($args as $key => $value) {
