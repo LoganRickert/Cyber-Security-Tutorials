@@ -24,7 +24,7 @@
                 	<li><a href="renaming-moving-deleting.php">Renaming, Moving, and Deleting Files</a></li>
                 	<li><a href="file-permissions.php">File Permissions and Groups</a></li>
                 	<li><a href="processes.php">Processes</a></li>
-                	<li><a href="enviroment-variables.php">Environment Variables</a></li>
+                	<li><a href="environment-variables.php">Environment Variables</a></li>
                 	<li><a href="find-grep-wc-piping.php">Find, Grep, WC, and Piping</a></li>
                 	<li><a href="installing-software.php">Installing Software</a></li>
                 	<li><a href="ssh.php">SSH</a></li>

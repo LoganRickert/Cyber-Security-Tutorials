@@ -5,32 +5,31 @@
         HEADER_HTML,
         array(
             "SITE_ROOT" => SITE_ROOT,
-            "title" => "Linux Basics Introduction",
+            "title" => "Processes",
             "author" => "By Logan Rickert"
-    ));
+        )
+    );
+    $code = new Code("code_examples/processes.txt");
 
 ?>
-                <h3>Introduction</h3>
-                <p>This tutorial series is here to give someone a basic knowledge of how 
-                	to use Linux.</p>
-                <h3>Table of Contents</h3>
-                <ol>
-                	<li>Linux Flavors and Some History</li>
-                	<li>VMware Player / Installing Linux</li>
-                	<li>Exploring the File System</li>
-                	<li>Quickly Viewing Files</li>
-                	<li>Editing Files</li>
-                	<li>Renaming, Moving, and Deleting Files</li>
-                	<li>File Permissions and sudo</li>
-                	<li>Processes</li>
-                	<li>Environment Variables</li>
-                	<li>Find, Grep, WC, and Piping</li>
-                	<li>Installing Software</li>
-                	<li>SSH</li>
-                	<li>sftp</li>
-                </ol>
+                <h3>Processes</h3>
+                <p>You'll notice very quickly that in Linux, there is no task manager. Instead, Linux uses
+                    what is called 'top'. You can take a look by running the command, top. To quit out, press 'q'.</p>
+                <?PHP $code->printNextExample("Bash"); ?>
+                <p>You can use the up and down arrow keys to scroll through the list of processes that are currently running.
+                    The PID number is going to be very important. PID is the process ID number and it's a unique number to each
+                    process currently running.</p>
+                <p>To stop a process that is running, find the PID number and exit top. Then run the command, 'kill &lt;PID&gt;'.
+                <?PHP $code->printNextExample("Bash"); ?>
+
 <?PHP
 
-    File::dumpFile(FOOTER_HTML);
+    File::dumpFile(
+        FOOTER_HTML,
+        array(
+            "previous" => "file-permissions",
+            "next" => "environment-variables"
+        )
+    );
 
 ?>
