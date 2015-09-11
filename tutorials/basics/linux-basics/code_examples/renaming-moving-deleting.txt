@@ -13,7 +13,7 @@ logan@ubuntu:~$ touch test1
 logan@ubuntu:~$ l
 Desktop/ Downloads/ Pictures/ secret-test test1 Videos/
 Documents/ Music/ Public/ Templates/
-logan@ubuntu:~$ rm test
+logan@ubuntu:~$ rm test1
 logan@ubuntu:~$ l
 Desktop/ Downloads/ Pictures/ secret-test Videos/
 Documents/ Music/ Public/ Templates/

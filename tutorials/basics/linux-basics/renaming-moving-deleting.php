@@ -26,8 +26,8 @@
                 <p>If you want to delete the entire folder plus all of the contents, you have 
                     to include the '-r' flag.</p>
                 <?PHP $code->printNextExample("Bash"); ?>
-                <p>Only using the '-r' flag will mean that you will be prompted if you wish to 
-                    delete very file. To force bash to just delete al files, you can append 
+                <p>Only using the '-r' flag will mean that you will be prompted to confirm you wish to
+                    delete the file, for every file. To force bash to just delete all files, you can append 
                     the 'f' flag, so now it's 'rm -rf testFolder'.</p>
 <?PHP
 
