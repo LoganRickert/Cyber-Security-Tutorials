@@ -22,7 +22,7 @@
                 	<li><a href="creating-viewing-files.php">Creating and Viewing Files</a></li>
                 	<li><a href="editing-files.php">Editing Files</a></li>
                 	<li><a href="renaming-moving-deleting.php">Renaming, Moving, and Deleting Files</a></li>
-                	<li><a href="file-permissions.php">File Permissions and sudo</a></li>
+                	<li><a href="file-permissions.php">File Permissions and Groups</a></li>
                 	<li><a href="processes.php">Processes</a></li>
                 	<li><a href="enviroment-variables.php">Environment Variables</a></li>
                 	<li><a href="find-grep-wc-piping.php">Find, Grep, WC, and Piping</a></li>

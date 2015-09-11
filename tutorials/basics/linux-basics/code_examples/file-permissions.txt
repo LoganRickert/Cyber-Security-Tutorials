@@ -1,0 +1,29 @@
+EXAMPLE
+logan@ubuntu:~/test$ ll
+total 8
+drwxrwxr-x  2 logan logan 4096 Sep 11 10:13 ./
+drwxr-xr-x 23 logan logan 4096 Sep 11 10:13 ../
+-rw-rw-r--  1 logan logan    0 Sep 11 10:13 test1
+-rw-rw-r--  1 logan logan    0 Sep 11 10:13 test2
+EXAMPLE
+drwxrwxr-x
+drwxr-xr-x
+-rw-rw-r--
+-rw-rw-r--
+EXAMPLE
+0 = ---
+1 = --x
+2 = -r-
+3 = -rx
+4 = r--
+5 = r-x
+6 = rw-
+7 = rwx
+EXAMPLE
+logan@ubuntu:~/test$ chmod 764 test1
+logan@ubuntu:~/test$ ll
+total 8
+drwxrwxr-x  2 logan logan 4096 Sep 11 10:13 ./
+drwxr-xr-x 23 logan logan 4096 Sep 11 10:13 ../
+-rwxrw-r--  1 logan logan    0 Sep 11 10:13 test1*
+-rw-rw-r--  1 logan logan    0 Sep 11 10:13 test2
